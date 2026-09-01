@@ -1,0 +1,78 @@
+/* --- Global Body Styling --- */
+body {
+    background-color: #ffffff; /* Clean white background */
+    color: #111111;            /* Deep black/dark charcoal text for readability */
+    font-family: 'Times New Roman', Times, Baskerville, Georgia, serif; /* Classical Roman typography */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* --- Navigation / Top Header --- */
+header {
+    background: linear-gradient(135deg, #00d2ff, #00a8cc); /* Vibrant cyan to light blue gradient */
+    color: #ffffff;            /* White text to stand out against the blue */
+    padding: 20px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* --- Container for Page Content --- */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* --- Headings --- */
+h2, h3, h4 {
+    color: #0088a3;            /* Matching dark cyan accent for subheadings */
+    font-family: 'Times New Roman', serif;
+    margin-top: 1.5em;
+}
+
+/* --- Interactive Elements & Buttons --- */
+button, .btn {
+    background-color: #00d2ff; /* Cyan background */
+    color: #ffffff;            /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #00a8cc; /* Darker light-blue on hover */
+}
+
+button:active, .btn:active {
+    transform: scale(0.98);    /* Subtle click animation effect */
+}
+
+/* --- Chat Input / Form Fields --- */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #00d2ff; /* Light blue border */
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #00a8cc;     /* Deepens border color when typing */
+    box-shadow: 0 0 8px rgba(0, 210, 255, 0.3);
+}
